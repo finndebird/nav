@@ -16,19 +16,19 @@
     background-color: black;
 }
 
-/* index section */
+/*  section */
 
-.index__nav {
+.nav {
     width: 100%;
     
 }
-.index__nav-inner-warpper{
+.nav-inner-warpper{
     background-color: #121212;
     display: flex;
     justify-content: center;
 }
 
-.index__nav-content{
+.nav-content{
     max-width: 1920px;
     width: 100%;
     height: 80px;
@@ -40,12 +40,12 @@
     align-items: center;
 }
 
-.index_nav-logo {
+.nav-logo {
     display: inline-block;
     height: 64px;
 }
 
-.index_nav-links-wrapper {
+._av-links-wrapper {
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -53,7 +53,7 @@
     align-items: center;
 }
 
-.index_nav-link {
+.nav-link {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: white;
@@ -61,26 +61,26 @@
     white-space: nowrap;
 }
 
-/* main body*/
+/* main body w*/
 
-.index__main-section {
+.main-section {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.index__main-section-inner-wrapper{
+.main-section-inner-wrapper{
     position: relative;
     gap: 16px;
     justify-content: left;
     align-items: center;
 }
 
-.index__main-section-picture{
+.main-section-picture{
     width: 100%;
 }
 
-.index__main-section-content{
+.main-section-content{
     position: absolute;
     max-width: 300px;
     width: 100%;
@@ -95,21 +95,80 @@
     flex-direction: column;
 }
 
-.index__main-section-heading-pre {
+.main-section-heading-pre {
     font-size: 15px;
 }
 
-.index__main-section-heading {
+.main-section-heading {
     font-size: 40px;
     color: white;
     margin: 0;
 }
 
-.index__main-section-text{
+.main-section-text{
     font-size: 12px;
 }
 
-.index__main-section-link-to{
+.main-section-link-to{
+    max-width: min-content;
+    white-space: nowrap;
+
+    color: #838882;
+    margin-top: 32px;
+    text-decoration: none;
+
+    border-bottom: #dddddd solid 1px;
+}
+
+/* about-me */
+
+.about-me {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-inner-wrapper{
+    position: relative;
+    gap: 16px;
+    justify-content: left;
+    align-items: center;
+}
+
+.about-me-picture{
+    width: 100%;
+}
+
+.about-me-content{
+    position: absolute;
+    max-width: 300px;
+    width: 100%;
+    top: 150px;
+    left: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dddddd;
+
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.about-me-heading-pre {
+    font-size: 15px;
+}
+
+.about-me-heading {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+}
+
+.about-me-text{
+    font-size: 12px;
+}
+
+.about-me-link-to {
     max-width: min-content;
     white-space: nowrap;
 
