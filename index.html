@@ -16,22 +16,21 @@
 </head>
 <body class="body">
     <div class="nav">    
-        
         <div class="nav-inner-warpper">
             <div class="nav-content">
                 <img src="img/Logo.jpg" alt="Logo" class="nav-logo">
                 <div class="nav-links-wrapper">
-                <a href="https://www.google.com" class="nav-link"> 
+                <a href="#about-me" class="nav-link"> 
                     <div>
                         About Me
                     </div>
                 </a>
-                <a href="https://www.google.com" class="nav-link"> 
+                <a href="#contact-me" class="nav-link"> 
                     <div>
                         Contact Me
                     </div>
                 </a>
-                <a href="https://www.google.com" class="nav-link"> 
+                <a href="#downloads" class="nav-link"> 
                     <div>
                         Downloads
                     </div>
@@ -41,7 +40,7 @@
     </div>
 
 
-    <div class="main-section">
+    <div id="main-section" class="main-section">
         <div class="main-section-inner-wrapper">
             <div class="main-section-content">
                 <div class="main-section-heading-pre">
@@ -64,7 +63,7 @@
         </div>
     </div>
 
-    <div class="about-me">
+    <div id="about-me" class="about-me">
         <div class="about-me-inner-wrapper">
             <div class="about-me-content">
                 <div class="about-me-heading">
@@ -77,11 +76,24 @@
                     asperiores saepe blanditiis. Adipisci.
                 </div>
             </div>
-            <img src="https://media.istockphoto.com/photos/handsome-amazed-bearded-man-in-blue-suit-standing-and-pointing-at-picture-id1023153932?k=20&m=1023153932&s=612x612&w=0&h=GGTyaU-5vpIIE40BBa8nHnPzZIdeBTkVTVy8ONsgVSQ=" alt="Logo" class="about-me-picture">
+            <img src="./img/jojo.png" alt="Logo" class="about-me-picture">
         </div>
     </div>
 
-    <div class="contact-me">
+    <div id="download" class="download">
+        <div class="download-wrapper">
+            <div class="download-headline">
+                <span>Auf die Links klicken um die Datein Herunterzuladen</span>
+            </div>
+            <div class="download-button-wrapper">
+                <a href="" class="download-button" download>Datei 1</a>
+                <a href="" class="download-button" download>Datei 2</a>
+                <a href="" class="download-button" download>Datei 3</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-me" class="contact-me">
         <div class="contact-me-inner-wrapper">
             <div class="contact-me-headline">
                 Wollen Sie Kontakt aufnehmen?
@@ -120,6 +132,8 @@
     display: flex;
     justify-content: center;
     background-color: black;
+    color: white;
+    font-family: arial;
 }
 
 /***************************
@@ -296,6 +310,50 @@
 
 /***************************
 *                          *
+*       download           *
+*                          *
+****************************/
+
+.download{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.download-wrapper{
+    width: 100%;
+    max-width: 1920px;
+}
+
+.download-headline{
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.download-headline > span {
+}
+
+.download-button-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.download-button{
+    text-decoration: none;
+    margin: 16px;
+    padding: 10px 0;
+    background-color: #838882;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+/***************************
+*                          *
 *       contact-me         *
 *                          *
 ****************************/
@@ -316,6 +374,7 @@
     justify-content: center;
     row-gap: 32px;
 }
+
 .contact-me-headline {
     display: block;
 }
@@ -351,4 +410,5 @@
 }
 
 </style>
+
 
