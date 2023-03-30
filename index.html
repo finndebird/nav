@@ -68,21 +68,55 @@
 
     <div id="about-me" class="about-me">
         <div class="about-me-inner-wrapper">
-            <div class="about-me-content">
-                <div class="about-me-heading">
-                    Johnathan
+            <div class="about-me-left-section">
+                <div class="about-me-left-section-inner-wrapper flex-column">
+                    <div class="flex-row">
+                        <div>Alter: </div>
+                        <div>18</div>
+                    </div>
+                    <div class="flex-row">
+                        <div>Gebore: </div>
+                        <div>13.03.2005</div>
+                    </div>
+                    <div class="flex-row">
+                        <div>Interessen </div>
+                        <div>Programmieren, Tiere, Kochen</div>
+                    </div>
                 </div>
-                <div class="about-me-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Quo officia quibusdam rerum nobis, facere maxime dolore soluta 
-                    exercitationem tempore non ratione modi possimus ipsam totam consectetur 
-                    asperiores saepe blanditiis. Adipisci.
+                <div class="about-me-left-section-devider"></div>
+                <div class="about-me-left-section-inner-wrapper flex-column">
+                    <div class="flex-row">
+                        <div>Schule: </div>
+                        <div>BTI-Neuss</div>
+                    </div>
+                    <div class="flex-row">
+                        <div>Erhaltene Abschlüsse: </div>
+                        <div>Mittlerer Schulabschluss</div>
+                    </div>
+                    <div class="flex-row">
+                        <div>Angestrebter Abschluss: </div>
+                        <div>Fachhochschulreife</div>
+                    </div>
+                    <div>
+                    </div>
                 </div>
             </div>
-            <img src="./img/jojo.png" alt="Logo" class="about-me-picture">
+            <div class="about-me-devider"></div>
+            <div class="about-me-right-section">
+                <div class="about-me-right-section-inner-wrapper">
+                    <div class="about-me-right-section-headline">Ich mache zurzeit:</div>
+                    <div class="about-me-right-section-text">Zurzeit gehe ich noch zur Schule (BTI-Neuss) und mache dort meine Fachhochschulreife.
+                        In meiner Freizeit spiele ich gerne Computer spiele und helfe meinen Eltern für ein besseres Taschengeld in der Firma.</div>
+                </div>
+                <div class="about-me-right-section-inner-wrapper">
+                    <div class="about-me-right-section-headline">Ich habe vor:</div>
+                    <div class="about-me-right-section-text">Ich habe vor eine Ausbildung als Fach Informatiker im beriech Anwendungsentwicklung zu machen und danach zu meinen Eltern in die Firma zu gehen um dort viele Erfahrungen sammeln.</div>
+                </div>
+            </div>
         </div>
     </div>
 
+    
     <div id="download" class="download">
         <div class="download-wrapper">
             <div class="download-headline">
@@ -90,7 +124,7 @@
             </div>
             <div class="download-button-wrapper">
                 <a href="./downloads/Lebenslauf.pdf" class="download-button" download>Lebenslauf</a>
-                <a href="" class="download-button" download>Datei 2</a>
+                <a href="https://youtu.be/dQw4w9WgXcQ" class="download-button" download>Knopf</a>
                 <a href="./downloads/Moodboard_Jonathan_Hohmann.pdf" class="download-button" download>Moodboard</a>
             </div>
         </div>
@@ -98,24 +132,47 @@
 
     <div id="contact-me" class="contact-me">
         <div class="contact-me-inner-wrapper">
-            <div class="contact-me-headline">
-                Wollen Sie Kontakt aufnehmen?
+            <div>
+                <div class="contact-me-split flex-row">
+                    <div class="flex-column">
+                        <div class="contact-me-headline">
+                            Wollen Sie Kontakt aufnehmen?
+                        </div>
+                        <form class="contact-me-contactformular" action="xxx">
+                            <div class="contact-me-name">
+                                <label for="fname">Name:</label>
+                                <input type="text" id="fname" name="fname">
+                            </div>
+                            <div class="contact-me-email">
+                                <label for="fname">E-Mail:</label>
+                                <input type="text" id="fname" name="fname">
+                            </div>
+                            <div class="contact-me-text">
+                                <label for="fname">Nachricht:</label>
+                                <input type="text" id="fname" name="fname">
+                            </div>
+                            <input class="contact-me-submit" type="submit" value="Abschicken">
+                        </form>
+                    </div>
+                    <div class="flex-column contact-me-socials">
+                        <a href="https://www.instagram.com/beg_meowmeow/">
+                            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png?w=360" alt="Logo" class="nav-logo">
+                            <div>Instagram: beg_meowmeow</div>
+                        </a>
+                        <a href="https://discord.com/">
+                            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/discord-512.png" alt="Logo" class="nav-logo">
+                            <div>Discord: .Juan#6042</div>
+                        </a>
+                        <a href="mailto:Jonathan.hohmann@facts-figures.de">
+                            <img src="https://cdn-icons-png.flaticon.com/512/666/666162.png" alt="Logo" class="nav-logo">
+                            <div>
+                                <span>Email:</span>
+                                <span>Jonathan.hohmann@facts-figures.de</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <form class="contact-me-contactformular" action="xxx">
-                <div class="contact-me-name">
-                    <label for="fname">Name:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                </div>
-                <div class="contact-me-email">
-                    <label for="fname">E-Mail:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                </div>
-                <div class="contact-me-text">
-                    <label for="fname">Nachricht:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                </div>
-                <input class="contact-me-submit" type="submit" value="Abschicken">
-            </form>
         </div>
     </div>
 
@@ -125,19 +182,19 @@
             <div class="footer-content">
                 <img src="img/Logo.jpg" alt="Logo" class="footer-logo">
                 <div class="footer-links-wrapper">
-                    <a href="#about-me" class="footer-link"> 
+                    <a href="#about-me" onclick="event.preventDefault(); scrollToElement(this, 100)" class="nav-link"> 
                         <div>
-                            About Me
+                            Über Mich
                         </div>
                     </a>
-                    <a href="#contact-me" class="footer-link"> 
-                        <div>
-                            Contact Me
-                        </div>
-                    </a>
-                    <a href="#download" class="footer-link"> 
+                    <a href="#download" onclick="event.preventDefault(); scrollToElement(this, 100)" class="nav-link"> 
                         <div>
                             Downloads
+                        </div>
+                    </a>
+                    <a href="#contact-me" onclick="event.preventDefault(); scrollToElement(this, 100)" class="nav-link"> 
+                        <div>
+                            Kontakt
                         </div>
                     </a>
                 </div>
@@ -150,6 +207,26 @@
 <style>
 /***************************
 *                          *
+*   set unique classes     *
+*                          *
+****************************/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.flex-row > div {
+    width: 50%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/***************************
+*                          *
 *           body           *
 *                          *
 ****************************/
@@ -159,7 +236,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #490680;
+    background-color: #3003ab;
+
     color: white;    
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -172,7 +250,6 @@
 
 .nav {
     width: 100%;
-
     position: sticky;
     top: 0;
     z-index: 2;
@@ -180,7 +257,7 @@
 
 .nav-inner-warpper{
     width: 100%;
-    background-color: #F6B3FF;
+    background-color: #0018b5;
     display: flex;
     justify-content: center;
 }
@@ -219,7 +296,7 @@
     white-space: nowrap;
     padding: 5px;
     border-radius: 10px;
-    background-color: #FF7300;
+    background-color: #C9691A;
 }
 
 /***************************
@@ -261,15 +338,14 @@
     top: 150px;
     left: 200px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #35014A;
+    color: #89cff0 ;
     display: flex;
     gap: 8px;
     flex-direction: column;
     padding: 16px;
-
     
     border-radius: 10px;
-    background-color: #F6B3FF;
+    background-color: #0d05f0;
 }
 
 .hero-section-heading-pre {
@@ -284,7 +360,7 @@
     margin: 0;
 }
 
-.hero-section-text{
+.hero-section-text {
     font-size: 12px;
     font-weight: 400;
 }
@@ -305,6 +381,7 @@
 ****************************/
 
 .about-me {
+    margin-top: 64px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -313,43 +390,67 @@
 .about-me-inner-wrapper{
     width: 100%;
     max-width: 1920px;
+    margin: 0 16px;
     position: relative;
     gap: 16px;
     justify-content: left;
     align-items: center;
-}
-
-.about-me-picture{
-    width: 100%;
-}
-
-.about-me-content{
-    position: absolute;
-    max-width: 300px;
-    width: 100%;
-    top: 150px;
-    right: 200px;
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: #dddddd;
-
     display: flex;
-    gap: 8px;
+}
+
+.about-me-left-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
     flex-direction: column;
 }
 
-.about-me-heading {
-    width: fit-content;
+.about-me-left-section-inner-wrapper {
+    margin: 16px;
+    border-radius: 10px;
+    background-color: #0d05f0;
+    padding: 10px;
+    height: 100%;
+}
+
+.about-me-left-section-devider {
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+
+.about-me-devider {
+    width: 5px;
+    height: 100%;
+    background-color: black;
+}
+
+.about-me-right-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 10px;
+    background-color: #0d05f0;
+    padding: 10px;
+}
+
+.about-me-right-section-inner-wrapper{
+    
+}
+
+.about-me-right-section-headline{
     font-size: 40px;
     font-weight: 700;
     color: white;
-    margin: 0;
-    border-bottom: #dddddd solid 3px;
+
 }
 
-.about-me-text{
-    font-size: 12px;
+.about-me-right-section-text{
+    font-size: 16px;
     font-weight: 400;
+    color: #89cff0 ;
+
 }
 
 /***************************
@@ -362,12 +463,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 16px 0;
+    margin: 64px 0 0 0;
 }
 
 .download-wrapper{
     width: 100%;
-    max-width: 1920px;
+    max-width: 1920px; 
 }
 
 .download-headline{
@@ -390,10 +491,11 @@
     text-decoration: none;
     margin: 16px;
     padding: 10px 0;
-    background-color: #838882;
+    background-color: #C9691A;
     text-align: center;
     color: black;
     text-transform: uppercase;
+    border-radius: 10px;
 }
 
 /***************************
@@ -402,21 +504,33 @@
 *                          *
 ****************************/
 
-.contact-me{
+.contact-me {
+    margin-top: 64px;
     width: 100%;
-    background-color: red;
     display: flex;
     justify-content: center;
 }
-.contact-me-inner-wrapper{
-    width: 100%;
+
+.contact-me-inner-wrapper {
     max-width: 1920px;
-    background-color: green;
     padding: 64px 0;
-    display: grid;
-    grid-template-columns: 1;
     justify-content: center;
-    row-gap: 32px;
+}
+
+.contact-me-inner-wrapper > div {
+    width: 100%;
+    background-color: #0d05f0;
+    padding: 16px;
+    border-radius: 10px;
+    border: hidden;
+}
+
+.contact-me-split > div:first-child{
+    width: 300px;
+}
+
+.contact-me-split > div:nth-child(2) {
+    width: 300px;
 }
 
 .contact-me-headline {
@@ -424,23 +538,72 @@
 }
 
 .contact-me-contactformular {
-    
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-me-contactformular  input{
+    border-radius: 5px;
+    border: hidden;
 }
 
 .contact-me-name {
-
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
 }
 
 .contact-me-email {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 
 }
 
 .contact-me-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-me-text  input{
+    
+    height: 50px;overflow-x: scroll;
 
 }
 
 .contact-me-submit {
 
+}
+
+.contact-me-socials {
+    color: white;
+    justify-content: center;
+}
+
+.contact-me-socials a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.contact-me-socials img{
+    height: 30px;
+    width: 30px;
+}
+
+.contact-me-socials div{
+    word-break: keep-all;
+    color: white;
+}
+
+.contact-me-socials span{
+    white-space: nowrap;
 }
 
 /***************************
@@ -455,7 +618,7 @@
 
 .footer-inner-warpper{
     width: 100%;
-    background-color: white;
+    background-color: #0018b5;
     display: flex;
     justify-content: center;
 }
@@ -491,8 +654,10 @@
     color: black;
     text-decoration: none;
     white-space: nowrap;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #C9691A;
 }
-
 </style>
 
 
